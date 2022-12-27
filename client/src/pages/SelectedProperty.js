@@ -13,7 +13,7 @@ const SelectedProperty = () => {
     const handleGetProperty = async () => {
       console.log(propertyId);
       let response = await fetch(
-        `http://localhost:3000/properties/${propertyId}`
+        `https://arasaka.onrender.com/properties/${propertyId}`
       );
       response = await response.json();
       await console.log(response);

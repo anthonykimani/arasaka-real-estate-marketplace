@@ -12,7 +12,7 @@ const Purchase = () => {
   //fetch purchased properties
   useEffect(() => {
     const fetchProperties = async () => {
-      let response = await fetch("http://localhost:3000/purchases");
+      let response = await fetch("https://arasaka.onrender.com/purchases");
       response = await response.json();
       await setProperties(response);
     };

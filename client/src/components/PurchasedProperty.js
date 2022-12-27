@@ -13,7 +13,7 @@ const PurchasedProperty = ({
 
   const handleDelete = async() => {
     // console.log(id)
-    let response = await fetch(`http://localhost:3000/purchases/${id}`,{
+    let response = await fetch(`https://arasaka.onrender.com/purchases/${id}`,{
       method:"DELETE",
     })
   }

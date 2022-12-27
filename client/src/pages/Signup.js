@@ -35,7 +35,7 @@ const Signup = () => {
       email: login.email,
       password: login.password,
     };
-    let find  = await fetch("http://localhost:3000/users",{
+    let find  = await fetch("https://arasaka.onrender.com/users",{
       method:"POST",
       headers:{
         "content-type":"application/json"
